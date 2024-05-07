@@ -1,0 +1,94 @@
+@charset "UTF-8";
+        /* Estilos para tornar o site responsivo */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, section, footer {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: PINK (255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        @media only screen and (max-width: 600px) {
+            header, section, footer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body style="background-image: url('imagem/mar3.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;">
+
+    <header>
+        <center>
+            <h1>PARKMERMAID</h1>                                    
+            <h1>🌊✨ Bem-vindo(a) ao Super Parque Mermaid✨ 🌊</h1>
+            <h4>❤🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟🐟❤</h4>
+        </center>
+        <div>
+            <img src="imagem/mermaid.png" alt="Italian Trulli" style="float: right; width: 50%;">
+            <img src="imagem/fayr123.png" alt="Italian Trulli" style="float: left; width: 50%;">
+        </div>
+        <nav>
+            <ul>
+                <h2>
+                    <li>&#129416;<a href="#login">Cadastro</a></li>
+                    <li>&#129416;<a href="#Socios">Socios</a></li>
+                    <li>&#129416;<a href="#sobre">Sobre</a></li>
+                    <li>&#129416;<a href="#atrações">Atrações</a></li>
+                    <li>&#129416;<a href="#horário">Horário de Funcionamento</a></li>
+                    <li>&#129416;<a href="#contato">Contato</a></li>
+                    <li>&#129416;<a href="#login">suporte</a></li>
+                </h2>
+            </ul>
+        </nav>
+    </header>
+    <center>
+        <img src="imagem/parque.jpg" alt="Italian Trulli" style="width: 100%;">
+        <section id="sobre">
+            <h2>Sobre o Parque</h2>
+            <!-- Conteúdo sobre o parque -->
+        </section>
+        <section id="atrações">
+            <h1>Nossas Atrações (◕‿◕✿)</h1>
+            <!-- Conteúdo sobre as atrações -->
+        </section>
+        <section id="horário">
+            <h3>✨Horário de Funcionamento✨</h3>
+            <!-- Conteúdo sobre o horário de funcionamento -->
+        </section>
+        <!-- Seção de login -->
+        <section id="login">
+            <!-- Conteúdo sobre o login -->
+        </section>
+        <!-- Seção Contato -->
+        <section id="contato">
+            <!-- Conteúdo sobre o contato -->
+        </section>
+        <img src="imagem/sereia.jpg" alt="Italian Trulli" style="width: 100%;">
+        <footer>
+            <p>&copy; 2024 Parque mermaid. Todos os direitos reservados.</p>
+        </footer>
+    </center>
+</body>
+</html>
